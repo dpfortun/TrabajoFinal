@@ -1,0 +1,88 @@
+html{
+    font-size: 20px;
+}
+body{
+    background-color: #EEEEEE;
+    margin: 0px;
+    font-family: 'Roboto', sans-serif;
+}
+/* ESTA ES LA CABECERA*/
+.cabecera{
+	overflow: hidden;
+	background: white;
+}
+.cabecera img{
+	display: block;
+	margin: auto;
+}
+/* AQUI COMIENZA EL MENU*/
+.menu-principal{
+	background: #7A756E;
+	overflow: hidden;
+}
+
+.menu-principal ul li{
+	list-style: none;
+	display: inline;
+}
+
+.menu-principal ul li a{
+	color: #ffffff;
+	text-decoration: none;
+	padding: 5px;
+}
+.menu-principal ul li a:hover{
+	color: #F69F2C;
+}
+
+@media (min-width: 768px) {
+    .menu-principal li {
+      display: inline;
+    }
+
+    .menu-principal a {
+      display: inline-block;
+    }
+
+    .menu-principal ul {
+      display: block;
+    }
+  }
+  .portada img{
+    width: 100%;
+  }
+  @media (min-width: 1261px) and (max-width: 1380px) {
+    .marcas_inicio {
+      width: 100%;
+    }
+  }
+  .marcas_inicio {
+    width: 100%;
+    margin: auto;
+    background-color: white;
+  }
+  .marcas_inicio ul {
+    display: flex;
+    align-content: center;
+    justify-content: space-around;
+    padding: 20px 0;
+    align-items: center;
+    max-width: var(--max-width);
+    padding: 20px;
+    margin: auto;
+    column-count: 5;
+    column-gap: 20px;
+    
+  }
+  @media (min-width: 1261px) and (max-width: 1380px) {
+    .marcas_inicio ul {
+      padding: 15px;
+    }
+  }
+  .marcas_inicio .marcas_inicio_li {
+    float: left;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+  
